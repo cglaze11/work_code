@@ -1,0 +1,6 @@
+from win32com import client as wc
+word = wc.Dispatch("Word.Application")
+doc = word.Documents.Open("C://Users//lenovo//Desktop//1.doc")
+doc.SaveAs("C://Users//lenovo//Desktop//1.docx", 12) 
+doc.Close()
+word.Quit()
