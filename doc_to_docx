@@ -5,6 +5,7 @@ doc = word.Documents.Open("C://Users//lenovo//Desktop//1.doc")
 doc.SaveAs("C://Users//lenovo//Desktop//1.docx", 12) 
 doc.Close()
 word.Quit()
+
 #read .docx file&read clear save function
 import docx
 doc = docx.Document("C://Users//lenovo//Desktop//GDP1.docx")
